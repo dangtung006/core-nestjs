@@ -44,6 +44,7 @@ export abstract class DatabaseMongoUUIDRepositoryAbstract<T>
         // super();
 
         this._repository = repository;
+        console.log("this._repository : ", this._repository);
         this._joinOnFind = options;
     }
 

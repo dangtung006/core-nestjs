@@ -25,8 +25,7 @@ export function DatabaseModel(
 }
 
 export function DatabaseEntity(options?: SchemaOptions): ClassDecorator {
-    console.log("options : ", options);
-    const a = Schema({
+    return Schema({
         ...options,
         versionKey: false,
         timestamps: {
@@ -34,6 +33,4 @@ export function DatabaseEntity(options?: SchemaOptions): ClassDecorator {
             updatedAt: DATABASE_UPDATED_AT_FIELD_NAME,
         },
     });
-    console.log("a : ", a);
-    return a;
 }
