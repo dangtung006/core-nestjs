@@ -54,3 +54,7 @@ Nest is [MIT licensed](LICENSE).
 # Install config module for env
 $ npm i --save @nestjs/config
 ```
+```bash
+# Install mongoose
+$ npm i --save @nestjs/mongoose mongoose
+```
