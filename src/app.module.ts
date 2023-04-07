@@ -4,8 +4,10 @@ import { AppService } from './app.service';
 import { CommonModule } from './common/common.module';
 
 @Module({
-  imports: [CommonModule],
+  imports: [
+    CommonModule
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
