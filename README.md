@@ -58,3 +58,9 @@ $ npm i --save @nestjs/config
 # Install mongoose
 $ npm i --save @nestjs/mongoose mongoose
 ```
+
+```bash
+# Install uuiId
+$ npm install --save @types/uuid
+```
+
