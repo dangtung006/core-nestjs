@@ -69,3 +69,7 @@ $ npm install --save @types/uuid
 $ npm install --save class-transformer class-validator
 ```
 
+```bash
+# Install Middleware
+$ npm i --save-dev @types/cors
+```
