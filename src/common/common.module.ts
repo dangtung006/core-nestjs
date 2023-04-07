@@ -20,8 +20,7 @@ import { DatabaseConnectService } from './database.module/mongoose/servcies/conn
             connectionName: "PrimaryConnectionDatabase",
             imports: [DatabaseconnectModule],
             inject: [DatabaseConnectService],
-            useFactory: (databaseConnectService: DatabaseConnectService) =>
-                databaseConnectService.makeOptionConnect()
+            useFactory: (databaseConnectService: DatabaseConnectService) => databaseConnectService.makeOptionConnect()
         })
     ]
 })

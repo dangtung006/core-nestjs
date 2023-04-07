@@ -42,11 +42,8 @@ export class DatabaseConnectService {
 
         const mongooseOptions: MongooseModuleOptions = {
             uri,
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            serverSelectionTimeoutMS: 5000,
             autoCreate: true,
-            // useMongoClient: true,
+            serverSelectionTimeoutMS: 5000
         };
 
         if (this.user && this.password) {
