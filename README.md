@@ -64,3 +64,8 @@ $ npm i --save @nestjs/mongoose mongoose
 $ npm install --save @types/uuid
 ```
 
+```bash
+# Install Validator
+$ npm install --save class-transformer class-validator
+```
+

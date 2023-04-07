@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { DatabaseMongoUUIDRepositoryAbstract } from './base/base.uuid.repository';
-import { DatabaseModel } from './../decorators/database.decorator';
+import { DatabaseModel } from '../decorators/database.decorator';
 import { RoleEntity } from '../entities/role.entity';
 import { UserEntity } from '../entities/user.entity';
 
